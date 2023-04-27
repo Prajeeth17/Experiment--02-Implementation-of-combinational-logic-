@@ -34,7 +34,8 @@ F=((C'.B.A)'(D'.C.A)'(C.B'.A)')'
 ## Program:
 ```c
 /*
-Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
+Program to implement the given logic function and to verify its operations in quartus
+using Verilog programming.
 Developed by: Prajeeth K T
 RegisterNumber: 212222110034
 */
@@ -66,10 +67,7 @@ assign s= (w & ~x & y);
 assign t= (w & x & y);
 assign F2= p | q | r | s | t;
 endmodule
-
 ```
-
-
 ## Output:
 
 ### Logical diagram:
